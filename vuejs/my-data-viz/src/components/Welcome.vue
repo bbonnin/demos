@@ -15,7 +15,7 @@ export default {
   name: 'welcome',
   data () {
     return {
-      msg: 'Hello Codeurs en Seine !'
+      msg: 'Ready to visualize your data ?'
     }
   }
 }

@@ -1,6 +1,6 @@
 <template>
     <v-app id="demo1">
-      <v-toolbar class="cyan darken-4 white--text">
+      <v-toolbar class="blue darken-2 white--text">
         <v-toolbar-title>A chart in 2 seconds!</v-toolbar-title>
       </v-toolbar>
       <main>
@@ -22,7 +22,7 @@
                 <v-card-row actions>
                   <!-- ******************************************************* -->
 
-                  <v-btn v-on:click.native="clear" class="blue-grey">Clear</v-btn>
+                  <v-btn v-on:click.native="clear" class="grey lighten-4" default>Clear</v-btn>
 
                   <!-- ******************************************************* -->                  
                 </v-card-row>
@@ -98,7 +98,7 @@ export default {
             csvdata: '',
             chartType: 'pie',
             chartOptions: [
-              { icon: 'pie_chart', value: 'pie' },
+              { icon: 'pie_chart', value: 'pie', class: 'white--text' },
               { icon: 'insert_chart', value: 'bar' }
            ]
         }
